@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PayDemo</string>
+    <string name="pay_result">您已成功注册我行电子渠道，登录手机号为13456789013。您可凭借注册时设置的登录密码登录我行电子渠道并享受相应服务。</string>
+</resources>

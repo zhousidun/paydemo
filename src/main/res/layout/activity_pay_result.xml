@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pay_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="abc.com.paydemo.PayResultActivity">
+    <TextView
+        android:text="注册成功"
+        android:textSize="@dimen/bigger_size"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <ImageView
+        android:src="@drawable/success"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"/>
+    <TextView
+        android:text="@string/pay_result"
+        android:textSize="@dimen/big_size"
+        android:lineSpacingExtra="8dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="完成"
+        android:textSize="@dimen/bigger_size"
+        android:textColor="@color/white"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/yellow"
+        android:onClick="finishPay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>
